@@ -69,9 +69,14 @@ hr {
     margin-top: 50px;
     margin-left: calc(40px + 40px);
     color: white;
-    transition: ease-in-out;
+    transition: 0.2s ease-in-out;
     /*border-radius: 5%;*/
 }
+
+.title:hover {
+    transform: scale(1.03)
+}
+
 
 .title h1, h3 {
     margin-left: 30px;
